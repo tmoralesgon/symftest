@@ -6,3 +6,6 @@ controllers:
 app_main:
     path: /main
     controller: App\Controller\MainController::show
+app_items:
+    path: /items
+    controller: App\Controller\ItemController::show
